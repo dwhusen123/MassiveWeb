@@ -139,7 +139,7 @@ button {
 }
 
 button:hover {
-    background-color: #f3f3f3;
+    background-color: #224F24;
 }
 
 .results-container {
@@ -148,11 +148,24 @@ button:hover {
 /* ini css js */
 
 .container1 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left;
-    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+
+/* Mengatur gaya untuk teks */
+.text {
+    padding-top: 5px;
+    color:#224F24;
+    padding-left: 10px;
+    flex: 1;
+    padding-right: 20px; /* Jarak antara teks dan gambar */
+}
+
+/* Mengatur gaya untuk gambar */
+.image {
+    padding-top:30px;
+    width: 600px; /* Lebar gambar */
+    height: auto;
 }
 
 .highlighted-text {
