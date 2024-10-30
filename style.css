@@ -1,0 +1,172 @@
+/* Navbar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #163020;
+    color: white;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-img {
+    width: 40px; /* Atur ukuran logo */
+    height: auto; /* Sesuaikan tinggi otomatis */
+    margin-right: 10px; /* Spasi antara logo dan teks */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    position: relative; /* Diperlukan untuk dropdown */
+    margin-left: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347; /* Warna saat hover */
+}
+
+/* Gaya untuk dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757; /* Warna saat hover di dropdown */
+}
+
+/* Menampilkan dropdown saat hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Navbar */
+
+/* Content */
+
+body {
+    margin: 0; /* Menghapus margin default */
+    padding: 0%;
+    font-family: Arial, sans-serif;
+}
+
+
+.background-image {
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column; /* Elemen diatur secara vertikal */
+    align-items: flex-start; /* Teks di kiri */
+    justify-content: center; /* Vertikal center */
+    padding: 50px 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: left; /* Rata kiri */
+    line-height: 0;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px; /* Atur ukuran font sesuai kebutuhan */
+    font-weight: bold; /* Membuat teks tebal */
+}
+p {
+    font-size: 20px; /* Atur ukuran font sesuai kebutuhan */
+    padding-left: 10px;
+}
+
+/* Ini css js */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 250px; /* Atur lebar input */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #163020;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f3f3f3;
+}
+
+.results-container {
+    margin-top: 20px;
+}
+/* ini css js */
+
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    justify-content: left;
+}
+
+.highlighted-text {
+    text-align: left;
+    justify-content: left;
+    background-color: #EEEFE7; /* Warna latar belakang */
+    color: rgb(3, 3, 3); /* Warna teks */
+    padding: 10px; /* Jarak antara teks dan latar belakang */
+    border-radius: 4px; /* Sudut melengkung */
+}
+
+.content {
+    text-align: left;
+}
+
+
+/* Content */
